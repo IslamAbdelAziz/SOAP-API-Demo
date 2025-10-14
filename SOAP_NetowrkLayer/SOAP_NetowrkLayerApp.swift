@@ -11,7 +11,8 @@ import SwiftUI
 struct SOAP_NetowrkLayerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NumberToWordsView()
+                .preferredColorScheme(.light)
         }
     }
 }
