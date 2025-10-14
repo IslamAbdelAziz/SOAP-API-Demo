@@ -7,10 +7,6 @@
 
 import Foundation
 
-protocol NumberConversionRepository {
-    func convert(number: Int) async throws -> NumberConversionResult
-}
-
 final class NumberConversionRepositoryImpl: NumberConversionRepository {
     func convert(number: Int) async throws -> NumberConversionResult {
         let endpoint = "https://www.dataaccess.com/webservicesserver/NumberConversion.wso"
