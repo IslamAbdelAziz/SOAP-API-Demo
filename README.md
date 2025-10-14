@@ -13,6 +13,15 @@
 This project demonstrates how to **consume SOAP APIs** in a modern iOS application using **SwiftUI**, **async/await**, and **Clean Architecture** principles.  
 It connects to a public SOAP service to **convert numbers into words** and showcases how to structure your app for scalability, testability, and clarity.
 
+## UITest Demo
+The flow while running UI Tests
+
+
+
+https://github.com/user-attachments/assets/89e39eed-62a0-4418-aa70-e134adb261ff
+
+
+
 ---
 
 ## 🧱 Tech Stack
