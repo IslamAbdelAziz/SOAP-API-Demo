@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A5B222D62E9E450C004A43F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A5B222D52E9E450C004A43F1 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A5B2229D2E9E2CDC004A43F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		A5B2228F2E9E2CDA004A43F1 /* SOAP_NetowrkLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOAP_NetowrkLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B2229C2E9E2CDC004A43F1 /* SOAP_NetowrkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOAP_NetowrkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B222A62E9E2CDC004A43F1 /* SOAP_NetowrkLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOAP_NetowrkLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B222D52E9E450C004A43F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		A5B222862E9E2CDA004A43F1 = {
 			isa = PBXGroup;
 			children = (
+				A5B222D52E9E450C004A43F1 /* README.md */,
 				A5B222912E9E2CDA004A43F1 /* SOAP_NetowrkLayer */,
 				A5B2229F2E9E2CDC004A43F1 /* SOAP_NetowrkLayerTests */,
 				A5B222A92E9E2CDC004A43F1 /* SOAP_NetowrkLayerUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B222D62E9E450C004A43F1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
