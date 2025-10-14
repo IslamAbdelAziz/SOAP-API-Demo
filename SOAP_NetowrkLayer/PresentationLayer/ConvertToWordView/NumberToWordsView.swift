@@ -27,6 +27,8 @@ struct NumberToWordsView: View {
                 .keyboardType(.numberPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding(.horizontal)
+                .accessibilityIdentifier("numberInputField")
+
             
             Button {
                 viewModel.resultText.removeAll()
@@ -34,6 +36,8 @@ struct NumberToWordsView: View {
             } label: {
                 if viewModel.isLoading {
                     ProgressView()
+                        .accessibilityIdentifier("loadingIndicator")
+
                 } else {
                     Text("Convert")
                         .bold()
@@ -45,6 +49,8 @@ struct NumberToWordsView: View {
                 }
             }
             .padding(.horizontal)
+            .accessibilityIdentifier("convertButton")
+
             
             if let error = viewModel.errorMessage {
                 Text(error)
@@ -59,6 +65,7 @@ struct NumberToWordsView: View {
                     .foregroundColor(.green)
                     .multilineTextAlignment(.center)
                     .padding()
+                    .accessibilityIdentifier("resultText")
             }
             
             Spacer()

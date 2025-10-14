@@ -5,7 +5,7 @@
 //  Created by iSlam AbdelAziz on 14/10/2025.
 //
 
-struct ConvertNumberToWordsUseCase {
+class ConvertNumberToWordsUseCase {
     private let repository: NumberConversionRepository
     
     init(repository: NumberConversionRepository) {
