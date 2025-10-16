@@ -9,8 +9,8 @@
 ---
 
 ## 🚀 Overview
+<img width="1050" height="700" alt="ChatGPT Image Oct 16, 2025, 09_54_24 AM" src="https://github.com/user-attachments/assets/d1d2894b-74fb-4abc-88f3-70295763b1d7" />
 
-<img width="1536" height="1024" alt="ChatGPT Image Oct 16, 2025, 09_54_24 AM" src="https://github.com/user-attachments/assets/da7031bd-e753-47a9-bbb7-c0952bb12152" />
 
 
 This project demonstrates how to **consume SOAP APIs** in a modern iOS application using **SwiftUI**, **async/await**, and **Clean Architecture** principles.  
